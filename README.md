@@ -5,16 +5,19 @@ libnotify support for Nodejs. This is essentially a port of TJ Holowaychuk [node
 
 ## Installation
 
-  Just copy and require libnotify.js
+  Install the [Kiwi package manager for nodejs](http://github.com/visionmedia/kiwi)
+  and run:
+  
+      $ kiwi -v install libnotify
 
 ## Examples
 
 Callback functions are optional
 
-    var growl = require('libnotify')
-    growl.notify('New email')
-    growl.notify('5 new emails', { title: 'Thunderbird' })
-    growl.notify('Email sent', function(){
+    var libnotify = require('libnotify')
+    libnotify.notify('New email')
+    libnotify.notify('5 new emails', { title: 'Thunderbird' })
+    libnotify.notify('Email sent', function(){
       // ... notification sent
     })
 
