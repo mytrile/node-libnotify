@@ -5,10 +5,7 @@ libnotify support for Nodejs. This is essentially a port of TJ Holowaychuk [node
 
 ## Installation
 
-  Install the [Kiwi package manager for nodejs](http://github.com/visionmedia/kiwi)
-  and run:
-      $ sudo apt-get install libnotify-bin
-      $ kiwi -v install notify-send
+  Just copy and require libnotify.js
 
 ## Examples
 
