@@ -30,7 +30,7 @@ Callback functions are optional
 
 Fetch the current version of 'notify-send':
 
-    growl.binVersion(function(err, version){ ... })
+    libnotify.binVersion(function(err, version){ ... })
     // => 'n.n.n'
 
 ## License
