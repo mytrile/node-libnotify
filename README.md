@@ -5,9 +5,12 @@ libnotify support for Nodejs. This is essentially a port of TJ Holowaychuk [node
 
 ## Installation
 
-  Install the [Kiwi package manager for nodejs](http://github.com/visionmedia/kiwi)
-  and run:
-  
+  Install via [npm](http://github.com/isaacs/npm):
+
+      $ npm install libnotfy
+
+  Install via [Kiwi package manager for nodejs](http://github.com/visionmedia/kiwi):
+
       $ kiwi -v install libnotify
 
 ## Examples
