@@ -1,4 +1,3 @@
-
 # libnotify for nodejs
 
 libnotify support for Nodejs. This is essentially a port of TJ Holowaychuk [node-growl](http://github.com/visionmedia/node-growl) for Ubuntu.
@@ -8,10 +7,6 @@ libnotify support for Nodejs. This is essentially a port of TJ Holowaychuk [node
   Install via [npm](http://github.com/isaacs/npm):
 
       $ npm install libnotfy
-
-  Install via [Kiwi package manager for nodejs](http://github.com/visionmedia/kiwi):
-
-      $ kiwi -v install libnotify
 
 ## Examples
 
