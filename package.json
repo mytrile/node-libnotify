@@ -2,9 +2,9 @@
 , "version": "1.0.2"
 , "description": "libnotify unobtrusive notifications"
 , "keywords": ["libnotify","notify"]
-, "homepage":"http://github.com/mytrile/node-libnotify"
+, "homepage":"https://github.com/mytrile/node-libnotify"
 , "directories": { "lib":"./lib" }
 , "main": "./lib/libnotify"
-, "repository" : "https://github.com/mitkok/node-libnotify.git"
+, "repository" : "https://github.com/mytrile/node-libnotify.git"
 , "author" : "Mitko Kostov <mitko.kostov@gmail.com> (http://fireinside.me)"
 }
