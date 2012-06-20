@@ -1,0 +1,102 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Node-libnotify by mytrile</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <script src="javascripts/scale.fix.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1 class="header">Node-libnotify</h1>
+        <p class="header">libnotify for node.js</p>
+
+        <ul>
+          <li class="download"><a class="buttons" href="https://github.com/mytrile/node-libnotify/zipball/master">Download ZIP</a></li>
+          <li class="download"><a class="buttons" href="https://github.com/mytrile/node-libnotify/tarball/master">Download TAR</a></li>
+          <li><a class="buttons github" href="">View On GitHub</a></li>
+        </ul>
+
+        <p class="header">This project is maintained by <a class="header name" href="https://github.com/mytrile">mytrile</a></p>
+
+
+      </header>
+      <section>
+        <h1>libnotify for nodejs</h1>
+
+<p>libnotify support for Nodejs. This is essentially a port of TJ Holowaychuk <a href="http://github.com/visionmedia/node-growl">node-growl</a> for Ubuntu.</p>
+
+<h2>Installation</h2>
+
+<p>Install via <a href="http://github.com/isaacs/npm">npm</a>:</p>
+
+<pre><code>  $ npm install libnotfy
+</code></pre>
+
+<h2>Examples</h2>
+
+<p>Callback functions are optional</p>
+
+<pre><code>var libnotify = require('libnotify')
+libnotify.notify('New email')
+libnotify.notify('5 new emails', { title: 'Thunderbird' })
+libnotify.notify('Email sent', function(){
+  // ... notification sent
+})
+</code></pre>
+
+<h2>Options</h2>
+
+<pre><code>- title   Notification title
+- time    Set the expiration time
+- image
+  - path to an image sets -i ( you can also use stock icons )
+</code></pre>
+
+<p>Fetch the current version of 'notify-send':</p>
+
+<pre><code>libnotify.binVersion(function(err, version){ ... })
+// =&gt; 'n.n.n'
+</code></pre>
+
+<h2>License</h2>
+
+<p>(The MIT License)</p>
+
+<p>Copyright (c) 2010 Mitko Kostov <a href="mailto:mitko.kostov@gmail.com">mitko.kostov@gmail.com</a></p>
+
+<p>Permission is hereby granted, free of charge, to any person obtaining
+a copy of this software and associated documentation files (the
+'Software'), to deal in the Software without restriction, including
+without limitation the rights to use, copy, modify, merge, publish,
+distribute, sublicense, and/or sell copies of the Software, and to
+permit persons to whom the Software is furnished to do so, subject to
+the following conditions:</p>
+
+<p>The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.</p>
+
+<p>THE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</p>
+      </section>
+      <footer>
+        <p><small>Hosted on <a href="https://pages.github.com">GitHub Pages</a> using the Dinky theme</small></p>
+      </footer>
+    </div>
+    <!--[if !IE]><script>fixScale(document);</script><!--<![endif]-->
+		
+  </body>
+</html>
