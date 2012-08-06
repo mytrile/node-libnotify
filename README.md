@@ -6,7 +6,7 @@ libnotify support for Nodejs. This is essentially a port of TJ Holowaychuk [node
 
   Install via [npm](http://github.com/isaacs/npm):
 
-      $ npm install libnotfy
+      $ npm install libnotify
 
 ## Examples
 
